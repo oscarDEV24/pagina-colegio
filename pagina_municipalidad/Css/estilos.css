@@ -1,0 +1,55 @@
+    body {
+      padding-top: 100px;
+  background-color: #fdf6f0; /* Blanco pastel */
+}
+
+
+    .navbar {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-brand img {
+      height: 60px;
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .titulo-colegio {
+      text-align: center;
+      margin: 30px 0 20px 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+
+    .carousel img {
+    object-fit: cover;
+    height: 700px; 
+  }
+
+  .carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  #galeria .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+#galeria .card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+footer {
+  background-color: #fdf6f0; /* Mismo blanco pastel */
+  color: #6c757d; /* Gris Bootstrap */
+  border-top: 1px solid #ddd;
+}
